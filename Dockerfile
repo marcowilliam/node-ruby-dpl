@@ -2,6 +2,7 @@ FROM node:8.9
 
 RUN apt-get update -qqy \
   && apt-get install -qqy \
+    mongodb \
     default-jre \
     zip \
     unzip \
